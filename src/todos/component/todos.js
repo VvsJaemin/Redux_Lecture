@@ -1,15 +1,12 @@
 import React from 'react'
-
-
-const todos =()=>{
-
-    return(<>
-    
-
-        <h1>할일 목록</h1>
-
+import { Todo } from 'todos/index'
+const Todos = ({todos}) => { 
+ 
+    return (<>
+    <h3>할일 목록</h3>
+    <div>
+         {todos.map(todo=>(<Todo key={todo.id} todo={todo}/>))}
+    </div>
     </>)
 }
-
-
-export default todos;
+export default Todos

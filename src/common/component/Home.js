@@ -20,7 +20,13 @@ const Home = () => {
             <Link to={'/todos/to-dos'}>todos</Link> 
             </li>
             <li>
+            <Link to={'/todos/complete-do'}>CompletedTodos</Link> 
+            </li>
+            <li>
             <Link to={'/todos/todo-app'}>TodoApp</Link> 
+            </li>
+            <li>
+            <Link to={'/todos/app-todo'}>AppTodo</Link> 
             </li>
             </>
             )
