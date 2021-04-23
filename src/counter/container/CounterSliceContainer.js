@@ -6,7 +6,7 @@ import {CounterSlice} from 'counter/index'
 
 const CounterSliceContainer = () => {
     const dispatch = useDispatch()
-    const number = useSelector(state=>(state.counterSlice.number)) // name
+    const number = useSelector(state=>(state.counterSlice.number)) 
 
     return (<>
         <CounterSlice number={number} 

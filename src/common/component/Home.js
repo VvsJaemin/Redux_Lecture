@@ -11,7 +11,7 @@ const Home = () => {
             <Link to ={'/counter/counter'}>카운터</Link>
             </li>
             <li>
-            <Link to={'/counter/slice-container'}>슬라이스 카운터</Link>  
+            <Link to={'/counter/slice-counter'}>슬라이스 카운터</Link>  
             </li>
             <li>
             <Link to={'/todos/to-do'}>Todo</Link>
